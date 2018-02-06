@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.connor00.hackathon2018.activity.FEHActivity">
+
+    <ImageView
+        android:id="@+id/heropic"
+        android:layout_width="195dp"
+        android:layout_height="194dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/background_light" />
+
+    <Spinner
+        android:id="@+id/heronames"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heropic" />
+
+    <ImageButton
+        android:id="@+id/hero1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toStartOf="@+id/hero2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heronames"
+        app:srcCompat="@android:color/background_light" />
+
+    <ImageButton
+        android:id="@+id/hero2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="11dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toStartOf="@+id/hero3"
+        app:layout_constraintTop_toBottomOf="@+id/heronames"
+        app:srcCompat="@android:color/background_light" />
+
+    <ImageButton
+        android:id="@+id/hero3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="11dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toStartOf="@+id/hero4"
+        app:layout_constraintTop_toBottomOf="@+id/heronames"
+        app:srcCompat="@android:color/background_light" />
+
+    <ImageButton
+        android:id="@+id/hero4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="11dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heronames"
+        app:srcCompat="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/heroName"
+        android:layout_width="135dp"
+        android:layout_height="27dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <TextView
+        android:id="@+id/heroAtk"
+        android:layout_width="135dp"
+        android:layout_height="27dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/heroSpd"
+        android:layout_width="135dp"
+        android:layout_height="27dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/heroDef"
+        android:layout_width="135dp"
+        android:layout_height="27dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <TextView
+        android:id="@+id/heroRes"
+        android:layout_width="135dp"
+        android:layout_height="27dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+</android.support.constraint.ConstraintLayout>

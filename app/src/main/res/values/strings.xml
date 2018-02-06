@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Hackathon 2018</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button_go_to_feh">FEH teams</string>
+    <string name="button_go_to_pkmn">PKMN teams</string>
 </resources>
