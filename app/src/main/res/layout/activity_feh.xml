@@ -77,42 +77,99 @@
 
     <TextView
         android:id="@+id/heroName"
-        android:layout_width="135dp"
+        android:layout_width="65dp"
         android:layout_height="27dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="24dp" />
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/hero_name"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toStartOf="@+id/heroNameVal"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/heroNameVal"
+        android:layout_width="65dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="24dp"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/heroAtk"
-        android:layout_width="135dp"
+        android:layout_width="65dp"
         android:layout_height="27dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="51dp" />
+        android:layout_marginEnd="7dp"
+        android:text="@string/hero_atk"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toStartOf="@+id/heroAtkVal"
+        app:layout_constraintTop_toBottomOf="@+id/heroName" />
+
+    <TextView
+        android:id="@+id/heroAtkVal"
+        android:layout_width="65dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="40dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heroNameVal" />
 
     <TextView
         android:id="@+id/heroSpd"
-        android:layout_width="135dp"
+        android:layout_width="65dp"
         android:layout_height="27dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="78dp" />
+        android:layout_marginEnd="7dp"
+        android:text="@string/hero_spd"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toStartOf="@+id/heroSpdVal"
+        app:layout_constraintTop_toBottomOf="@+id/heroAtk" />
+
+    <TextView
+        android:id="@+id/heroSpdVal"
+        android:layout_width="65dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="40dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heroAtkVal" />
 
     <TextView
         android:id="@+id/heroDef"
-        android:layout_width="135dp"
+        android:layout_width="65dp"
         android:layout_height="27dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="105dp" />
+        android:layout_marginEnd="7dp"
+        android:text="@string/hero_def"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toStartOf="@+id/heroDefVal"
+        app:layout_constraintTop_toBottomOf="@+id/heroSpd" />
+
+    <TextView
+        android:id="@+id/heroDefVal"
+        android:layout_width="65dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="40dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heroSpdVal" />
 
     <TextView
         android:id="@+id/heroRes"
-        android:layout_width="135dp"
+        android:layout_width="65dp"
         android:layout_height="27dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="132dp" />
+        android:layout_marginEnd="7dp"
+        android:text="@string/hero_res"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toStartOf="@+id/heroResVal"
+        app:layout_constraintTop_toBottomOf="@+id/heroDef" />
+
+    <TextView
+        android:id="@+id/heroResVal"
+        android:layout_width="65dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="40dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heroDefVal" />
 
 </android.support.constraint.ConstraintLayout>

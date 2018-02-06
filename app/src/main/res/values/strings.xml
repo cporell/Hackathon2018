@@ -4,4 +4,9 @@
     <string name="button_send">Send</string>
     <string name="button_go_to_feh">FEH teams</string>
     <string name="button_go_to_pkmn">PKMN teams</string>
+    <string name="hero_name">Name:</string>
+    <string name="hero_atk">Atk</string>
+    <string name="hero_spd">Spd</string>
+    <string name="hero_def">Def</string>
+    <string name="hero_res">Res</string>
 </resources>
